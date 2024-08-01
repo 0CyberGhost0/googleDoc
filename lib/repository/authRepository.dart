@@ -1,12 +1,15 @@
 import 'dart:convert';
 
-import 'package:docs_clone_flutter/constants.dart';
-import 'package:docs_clone_flutter/models/error_model.dart';
-import 'package:docs_clone_flutter/models/user_model.dart';
-import 'package:docs_clone_flutter/repository/local_storage_repository.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:googledoc/constants.dart';
+
+import 'package:googledoc/models/error_model.dart';
+import 'package:googledoc/repository/local_storage_repository.dart';
+
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:http/http.dart';
+import 'package:riverpod/riverpod.dart';
+
+import '../models/user_model.dart';
 
 final authRepositoryProvider = Provider(
   (ref) => AuthRepository(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:googledoc/screens/document_screen.dart';
+import 'package:googledoc/screens/home_screen.dart';
 import 'package:googledoc/screens/login_screen.dart';
 import 'package:routemaster/routemaster.dart';
 

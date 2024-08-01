@@ -1,12 +1,11 @@
-import 'package:docs_clone_flutter/colors.dart';
-import 'package:docs_clone_flutter/common/widgets/loader.dart';
-import 'package:docs_clone_flutter/models/document_model.dart';
-import 'package:docs_clone_flutter/models/error_model.dart';
-import 'package:docs_clone_flutter/repository/auth_repository.dart';
-import 'package:docs_clone_flutter/repository/document_repository.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
+
+import '../colors.dart';
+import '../commons/widgets/loader.dart';
+import '../models/document_model.dart';
+import '../repository/authRepository.dart';
+import '../repository/document_repository.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({Key? key}) : super(key: key);
